@@ -47,8 +47,9 @@ This project implements a smart irrigation system that efficiently monitors and 
 
 ## Link Repo
 
-- [GitHub](https://github.com/Vypboy/Embedded_System_Assignment)
-- [Video]()
+- [GitHub-Esp32+Yolobit](https://github.com/Vypboy/Embedded_System_Assignment)
+- [GitHub-Web](https://github.com/dangtna1/embeddedSystemAssignment)
+- [Video Demo](https://drive.google.com/file/d/1E1kRRTrXEAf4UaYeYXYPWHrDI2N3xFj-/view?usp=sharing)
 - [Slide](https://www.canva.com/design/DAFSvUCivEY/SHxznl-BgYQJNTkfXhJ3WA/edit?utm_content=DAFSvUCivEY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## License
