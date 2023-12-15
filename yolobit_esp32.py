@@ -28,12 +28,13 @@ def on_http_response_failed_callback():
 # Callback function for successful HTTP GET response
 def on_http_response_successed_callback_get():
     # Global variables for data and statuses
-    global RT, Status, data, headers, RH, SM, LUX, list2, Fan_Intensity, Pump_Switch, http_response
-    list2 = http_response.text
-    Fan_Intensity = ujson.loads(list2)['yolo-fan']
-    Pump_Switch = ujson.loads(list2)['yolo-servo']
-    pin14.write_analog(round(translate(Fan_Intensity, 0, 100, 0, 1023)))
-    print('GET', end=' ')
+  global RT, Status, list2, RH, Fan_Intensity, SM, Pump_Switch, LUX, data, headers, http_response
+  list2 = http_response.text
+  Fan_Intensity = ujson.loads(list2)['yolo-fan']
+  Pump_Switch = ujson.loads(list2)['yolo-servo']
+  pin14.write_analog(round(translate(Fan_Intensity, 0, 100, 0, 1023)))
+  pin10.write_analog(round(translate(Pump_Switch, 0, 100, 0, 1023)))
+  print('GET', end =' ')
 
 # Callback function for periodic event to gather sensor data, display on LCD, and publish via MQTT and HTTP POST
 def on_event_timer_callback_G_p_m_h_O():
