@@ -45,10 +45,11 @@ This project implements a smart irrigation system that efficiently monitors and 
 - Set up the sensors, Yolobit controller, ESP32 Gateway, and the server following the provided documentation.
 - Run the application to visualize and control the smart irrigation system.
 
-## Contributors
+## Link Repo
 
-- [Your Name](https://github.com/yourusername)
-- [Contributor 1](https://github.com/contributor1)
+- [GitHub](https://github.com/Vypboy/Embedded_System_Assignment)
+- [Video]()
+- [Slide](https://www.canva.com/design/DAFSvUCivEY/SHxznl-BgYQJNTkfXhJ3WA/edit?utm_content=DAFSvUCivEY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## License
 
